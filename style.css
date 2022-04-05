@@ -1,0 +1,50 @@
+.home-heading, /* grouping is on the <h1> for index and each recipe page. */
+.recipe-heading1 {
+    background-color: rgb(0,0,255); /* blue */
+    color: rgb(255,255,255); /* white */
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 62px;
+}
+
+.lasagna-link { /* grouping works for different element types, <li> <h2>. but chaining only works on the same element type */
+    background-color: rgb(255,255,0); /* yellow */ /* lasagna-link and lasagna page uses same colors */
+    color: rgb(0,0,0); /* black */
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.bacon-egg-link {
+    background-color: rgb(255,192,203); /* pink */ /* bacon-egg-link and bacon-egg page uses same colors */
+    color: rgb(0,0,0); /* black */
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.chili-mac-link {
+    background-color: rgb(255,140,0); /* dark orange */ /* Chili-mac-link and chili-mac page uses same colors */
+    color: rgb(0,0,0); /* black */
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.description { /* all recipe pages uses same color, font for description */
+    color: rgb(0,0,0); /* black */
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+img { 
+    height: auto;
+    width: 400px;
+}
+
+.center-image { /* for now ok to wrap this in a div element and it behaves like a block element instead of an inline
+    element. later, you will learn how to center images properly. this is ok for small images. */
+    text-align: center;
+}
+
