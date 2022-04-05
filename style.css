@@ -48,3 +48,18 @@ img {
     text-align: center;
 }
 
+.ingredients {
+    background-color: rgb(50,205,50); /* lime green */
+    color: rgb(0,0,0);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.steps {
+    background-color: rgb(173,216,230); /* light blue */
+    color: rgb(0,0,0);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 32px;
+}
